@@ -13,7 +13,7 @@ class Directory extends Component {
         this.setState({selectedCampsite: campsite});
     }
 
-    renderSelectedCamptite(campsite) {
+    renderSelectedCampsite(campsite) {
         if (campsite) {
             return (
                 <Card>
