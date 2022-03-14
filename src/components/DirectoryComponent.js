@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 function RenderDirectoryItem({campsite}) {
     return (
@@ -15,7 +15,8 @@ function RenderDirectoryItem({campsite}) {
     );
 }
 
-function Directory(props){
+function Directory(props) {
+
     const directory = props.campsites.map(campsite => {
         return (
             <div key={campsite.id} className="col-md-5 m-1">
@@ -29,21 +30,18 @@ function Directory(props){
             <div className="row">
                 <div className="col">
                     <Breadcrumb>
-                        <BreadcrumbItem>
-                            <Link to="/home">Home</Link>
-                        </BreadcrumbItem>
+                        <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                         <BreadcrumbItem active>Directory</BreadcrumbItem>
                     </Breadcrumb>
                     <h2>Directory</h2>
                     <hr />
                 </div>
-                <div className="row">
-                    {directory}
-                </div>
+            </div>
+            <div className="row">
+                {directory}
             </div>
         </div>
     );
-
 }
 
 export default Directory;
