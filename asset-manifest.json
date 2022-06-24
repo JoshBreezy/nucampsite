@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nucampsite/static/css/main.fb417af2.chunk.css",
-    "main.js": "/nucampsite/static/js/main.173f0355.chunk.js",
-    "main.js.map": "/nucampsite/static/js/main.173f0355.chunk.js.map",
+    "main.js": "/nucampsite/static/js/main.3e485eaa.chunk.js",
+    "main.js.map": "/nucampsite/static/js/main.3e485eaa.chunk.js.map",
     "runtime-main.js": "/nucampsite/static/js/runtime-main.7098f872.js",
     "runtime-main.js.map": "/nucampsite/static/js/runtime-main.7098f872.js.map",
     "static/css/2.66daf619.chunk.css": "/nucampsite/static/css/2.66daf619.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.66daf619.chunk.css",
     "static/js/2.b8496760.chunk.js",
     "static/css/main.fb417af2.chunk.css",
-    "static/js/main.173f0355.chunk.js"
+    "static/js/main.3e485eaa.chunk.js"
   ]
 }
